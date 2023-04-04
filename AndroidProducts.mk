@@ -5,6 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/calyx_hawao.mk \
     $(LOCAL_DIR)/lineage_hawao.mk
 
 COMMON_LUNCH_CHOICES := \
