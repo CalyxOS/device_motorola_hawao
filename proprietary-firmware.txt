@@ -1,4 +1,4 @@
-# Firmware from hawao_g S2SES32.28-70-11
+# Firmware from hawao_g S2SES32.28-70-13
 
 abl.elf:abl.img;AB
 BTFM.bin:bluetooth.img;AB
