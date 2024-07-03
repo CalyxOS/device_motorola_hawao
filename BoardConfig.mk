@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2022-2023 The LineageOS Project
-#
+# SPDX-FileCopyrightText: 2022-2024 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -45,8 +44,8 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 100
 
 # Security patch level
-BOOT_SECURITY_PATCH := 2024-04-01
-VENDOR_SECURITY_PATCH := 2024-04-01
+BOOT_SECURITY_PATCH := 2024-06-01
+VENDOR_SECURITY_PATCH := 2024-06-01
 
 # Calyx
 PLATFORM_SECURITY_PATCH := 2024-04-01
