@@ -4,7 +4,7 @@
 #
 
 # Inherit from sm6225-common
-$(call inherit-product, device/motorola/sm6225-common/bengal.mk)
+$(call inherit-product, device/motorola/sm6225-common/common.mk)
 
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
@@ -32,7 +32,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.bengal
+    android.hardware.light-service.lineage
 
 # NFC
 PRODUCT_PACKAGES += \
